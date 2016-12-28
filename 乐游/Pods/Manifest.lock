@@ -1,0 +1,56 @@
+PODS:
+  - AVOSCloud (3.8.2)
+  - DZNEmptyDataSet (1.8.1)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - Onboard (2.3.1)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.1.2)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - WMPageController (2.2.1)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYKeyboardManager (1.0.1)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AVOSCloud
+  - DZNEmptyDataSet
+  - Masonry
+  - MJRefresh
+  - Onboard
+  - SDCycleScrollView
+  - SVProgressHUD
+  - UITableView+FDTemplateLayoutCell
+  - WMPageController
+  - YYImage
+  - YYKeyboardManager
+  - YYWebImage
+
+SPEC CHECKSUMS:
+  AVOSCloud: fc3a1ae341a1421b66f8828fbc9850ddb6eaaa7c
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Onboard: b6871f25ac753175b2ab9a362fb2feb26a81a311
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  WMPageController: 181bcc9b1fb7c9c3466bff66012552953a547d28
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYKeyboardManager: ff53d2e80d1808567a7f004028bd200d9469a89f
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 59778a000aabaeedccfff798e2c4ac1876333ec1
+
+COCOAPODS: 1.1.1

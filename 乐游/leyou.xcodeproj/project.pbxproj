@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E530A2DD6AF4F13E8E1292 /* libPods-leyou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F492A414945071A542B8C879 /* libPods-leyou.a */; };
+		D80C6E111E136DDD006C4A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D80C6E101E136DDD006C4A6C /* main.m */; };
+		D80C6E141E136DDD006C4A6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D80C6E131E136DDD006C4A6C /* AppDelegate.m */; };
+		D80C6E1A1E136DDD006C4A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80C6E181E136DDD006C4A6C /* Main.storyboard */; };
+		D80C6E1C1E136DDD006C4A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80C6E1B1E136DDD006C4A6C /* Assets.xcassets */; };
+		D80C6E1F1E136DDD006C4A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80C6E1D1E136DDD006C4A6C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B5CD4AF90970A7E7D1B28BF /* Pods-leyou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leyou.release.xcconfig"; path = "Pods/Target Support Files/Pods-leyou/Pods-leyou.release.xcconfig"; sourceTree = "<group>"; };
+		8B6681E46117BEC602121543 /* Pods-leyou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leyou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leyou/Pods-leyou.debug.xcconfig"; sourceTree = "<group>"; };
+		D80C6E0C1E136DDD006C4A6C /* leyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80C6E101E136DDD006C4A6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D80C6E121E136DDD006C4A6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D80C6E131E136DDD006C4A6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D80C6E191E136DDD006C4A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D80C6E1B1E136DDD006C4A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80C6E1E1E136DDD006C4A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D80C6E201E136DDD006C4A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F492A414945071A542B8C879 /* libPods-leyou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leyou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D80C6E091E136DDD006C4A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E530A2DD6AF4F13E8E1292 /* libPods-leyou.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AC7CAACD1DABE40343ADC18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F492A414945071A542B8C879 /* libPods-leyou.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A176638D45348399AA8AD2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B6681E46117BEC602121543 /* Pods-leyou.debug.xcconfig */,
+				1B5CD4AF90970A7E7D1B28BF /* Pods-leyou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D80C6E031E136DDD006C4A6C = {
+			isa = PBXGroup;
+			children = (
+				D80C6E0E1E136DDD006C4A6C /* leyou */,
+				D80C6E0D1E136DDD006C4A6C /* Products */,
+				6A176638D45348399AA8AD2A /* Pods */,
+				5AC7CAACD1DABE40343ADC18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D80C6E0D1E136DDD006C4A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80C6E0C1E136DDD006C4A6C /* leyou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80C6E0E1E136DDD006C4A6C /* leyou */ = {
+			isa = PBXGroup;
+			children = (
+				D80C6E121E136DDD006C4A6C /* AppDelegate.h */,
+				D80C6E131E136DDD006C4A6C /* AppDelegate.m */,
+				D80C6E371E138A97006C4A6C /* Classes */,
+				D80C6E4D1E138A97006C4A6C /* Resources */,
+				D80C6E0F1E136DDD006C4A6C /* Supporting Files */,
+			);
+			path = leyou;
+			sourceTree = "<group>";
+		};
+		D80C6E0F1E136DDD006C4A6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D80C6E181E136DDD006C4A6C /* Main.storyboard */,
+				D80C6E1B1E136DDD006C4A6C /* Assets.xcassets */,
+				D80C6E1D1E136DDD006C4A6C /* LaunchScreen.storyboard */,
+				D80C6E201E136DDD006C4A6C /* Info.plist */,
+				D80C6E101E136DDD006C4A6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D80C6E371E138A97006C4A6C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D80C6E381E138A97006C4A6C /* Common */,
+				D80C6E3E1E138A97006C4A6C /* Models */,
+				D80C6E431E138A97006C4A6C /* ViewContrllers */,
+				D80C6E481E138A97006C4A6C /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D80C6E381E138A97006C4A6C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D80C6E391E138A97006C4A6C /* Base */,
+				D80C6E3A1E138A97006C4A6C /* Extension */,
+				D80C6E3B1E138A97006C4A6C /* Macro */,
+				D80C6E3C1E138A97006C4A6C /* Manager */,
+				D80C6E3D1E138A97006C4A6C /* Singleton */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D80C6E391E138A97006C4A6C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D80C6E3A1E138A97006C4A6C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D80C6E3B1E138A97006C4A6C /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		D80C6E3C1E138A97006C4A6C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D80C6E3D1E138A97006C4A6C /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		D80C6E3E1E138A97006C4A6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D80C6E3F1E138A97006C4A6C /* 周边 */,
+				D80C6E401E138A97006C4A6C /* 我 */,
+				D80C6E411E138A97006C4A6C /* 活动 */,
+				D80C6E421E138A97006C4A6C /* 首页 */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D80C6E3F1E138A97006C4A6C /* 周边 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "周边";
+			sourceTree = "<group>";
+		};
+		D80C6E401E138A97006C4A6C /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		D80C6E411E138A97006C4A6C /* 活动 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "活动";
+			sourceTree = "<group>";
+		};
+		D80C6E421E138A97006C4A6C /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D80C6E431E138A97006C4A6C /* ViewContrllers */ = {
+			isa = PBXGroup;
+			children = (
+				D80C6E441E138A97006C4A6C /* 周边 */,
+				D80C6E451E138A97006C4A6C /* 我 */,
+				D80C6E461E138A97006C4A6C /* 活动 */,
+				D80C6E471E138A97006C4A6C /* 首页 */,
+			);
+			path = ViewContrllers;
+			sourceTree = "<group>";
+		};
+		D80C6E441E138A97006C4A6C /* 周边 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "周边";
+			sourceTree = "<group>";
+		};
+		D80C6E451E138A97006C4A6C /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		D80C6E461E138A97006C4A6C /* 活动 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "活动";
+			sourceTree = "<group>";
+		};
+		D80C6E471E138A97006C4A6C /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D80C6E481E138A97006C4A6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D80C6E491E138A97006C4A6C /* 周边 */,
+				D80C6E4A1E138A97006C4A6C /* 我 */,
+				D80C6E4B1E138A97006C4A6C /* 活动 */,
+				D80C6E4C1E138A97006C4A6C /* 首页 */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D80C6E491E138A97006C4A6C /* 周边 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "周边";
+			sourceTree = "<group>";
+		};
+		D80C6E4A1E138A97006C4A6C /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		D80C6E4B1E138A97006C4A6C /* 活动 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "活动";
+			sourceTree = "<group>";
+		};
+		D80C6E4C1E138A97006C4A6C /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D80C6E4D1E138A97006C4A6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D80C6E4E1E138A97006C4A6C /* Image */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D80C6E4E1E138A97006C4A6C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D80C6E0B1E136DDD006C4A6C /* leyou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80C6E231E136DDD006C4A6C /* Build configuration list for PBXNativeTarget "leyou" */;
+			buildPhases = (
+				9B7088D127929BC98A0ACF26 /* [CP] Check Pods Manifest.lock */,
+				D80C6E081E136DDD006C4A6C /* Sources */,
+				D80C6E091E136DDD006C4A6C /* Frameworks */,
+				D80C6E0A1E136DDD006C4A6C /* Resources */,
+				50091ECE4202F93E2F4F5D35 /* [CP] Embed Pods Frameworks */,
+				22B5A88C5D3811EB8D9F742A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leyou;
+			productName = leyou;
+			productReference = D80C6E0C1E136DDD006C4A6C /* leyou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80C6E041E136DDD006C4A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lu.liu;
+				TargetAttributes = {
+					D80C6E0B1E136DDD006C4A6C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 37GW3Y8ECA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D80C6E071E136DDD006C4A6C /* Build configuration list for PBXProject "leyou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80C6E031E136DDD006C4A6C;
+			productRefGroup = D80C6E0D1E136DDD006C4A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D80C6E0B1E136DDD006C4A6C /* leyou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D80C6E0A1E136DDD006C4A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80C6E1F1E136DDD006C4A6C /* LaunchScreen.storyboard in Resources */,
+				D80C6E1C1E136DDD006C4A6C /* Assets.xcassets in Resources */,
+				D80C6E1A1E136DDD006C4A6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22B5A88C5D3811EB8D9F742A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leyou/Pods-leyou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50091ECE4202F93E2F4F5D35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leyou/Pods-leyou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7088D127929BC98A0ACF26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D80C6E081E136DDD006C4A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80C6E141E136DDD006C4A6C /* AppDelegate.m in Sources */,
+				D80C6E111E136DDD006C4A6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D80C6E181E136DDD006C4A6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80C6E191E136DDD006C4A6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D80C6E1D1E136DDD006C4A6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D80C6E1E1E136DDD006C4A6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D80C6E211E136DDD006C4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D80C6E221E136DDD006C4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D80C6E241E136DDD006C4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6681E46117BEC602121543 /* Pods-leyou.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37GW3Y8ECA;
+				INFOPLIST_FILE = leyou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anonym.leyou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D80C6E251E136DDD006C4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5CD4AF90970A7E7D1B28BF /* Pods-leyou.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37GW3Y8ECA;
+				INFOPLIST_FILE = leyou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anonym.leyou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80C6E071E136DDD006C4A6C /* Build configuration list for PBXProject "leyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80C6E211E136DDD006C4A6C /* Debug */,
+				D80C6E221E136DDD006C4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80C6E231E136DDD006C4A6C /* Build configuration list for PBXNativeTarget "leyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80C6E241E136DDD006C4A6C /* Debug */,
+				D80C6E251E136DDD006C4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80C6E041E136DDD006C4A6C /* Project object */;
+}
