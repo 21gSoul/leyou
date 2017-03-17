@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AAD237677D36DE948D8E8C9 /* libPods-leyou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA0D00E68D68013A011AF42 /* libPods-leyou.a */; };
+		D81529FC1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D81529FA1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.m */; };
+		D81529FD1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81529FB1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.xib */; };
+		D81529FF1E756850002E9B0A /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = D81529FE1E756850002E9B0A /* Property List.plist */; };
+		D8152A021E757C8E002E9B0A /* LYOutdoorDetailInfoViewContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = D8152A011E757C8E002E9B0A /* LYOutdoorDetailInfoViewContrller.m */; };
+		D8152A0B1E757EDC002E9B0A /* LYCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8152A0A1E757EDC002E9B0A /* LYCommentTableViewCell.m */; };
+		D8152A1A1E75919A002E9B0A /* LYCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8152A191E75919A002E9B0A /* LYCommentsViewController.m */; };
+		D8152A1D1E7591E0002E9B0A /* LYReplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8152A1C1E7591E0002E9B0A /* LYReplyViewController.m */; };
+		D8152A211E7596A0002E9B0A /* LYReplyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8152A201E7596A0002E9B0A /* LYReplyTableViewCell.m */; };
+		D85284231E7A386900BFBDC6 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D85284221E7A386900BFBDC6 /* NSString+Extension.m */; };
+		D85284271E7A61E100BFBDC6 /* LYComment.m in Sources */ = {isa = PBXBuildFile; fileRef = D85284261E7A61E100BFBDC6 /* LYComment.m */; };
+		D85284301E7A63B500BFBDC6 /* LYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D852842F1E7A63B500BFBDC6 /* LYUser.m */; };
+		D85284331E7A673A00BFBDC6 /* LYModelSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = D85284321E7A673A00BFBDC6 /* LYModelSetting.m */; };
+		D85284361E7A83EF00BFBDC6 /* LYReply.m in Sources */ = {isa = PBXBuildFile; fileRef = D85284351E7A83EF00BFBDC6 /* LYReply.m */; };
+		D852843B1E7A896D00BFBDC6 /* LYBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D852843A1E7A896D00BFBDC6 /* LYBaseButton.m */; };
+		D85284401E7A9D1600BFBDC6 /* fav02l-sheet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D852843F1E7A9D1600BFBDC6 /* fav02l-sheet@2x.png */; };
+		D8B19E371E7189AE0079BE14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E361E7189AE0079BE14 /* main.m */; };
+		D8B19E3A1E7189AE0079BE14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E391E7189AE0079BE14 /* AppDelegate.m */; };
+		D8B19E401E7189AE0079BE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B19E3E1E7189AE0079BE14 /* Main.storyboard */; };
+		D8B19E421E7189AE0079BE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B19E411E7189AE0079BE14 /* Assets.xcassets */; };
+		D8B19E451E7189AE0079BE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B19E431E7189AE0079BE14 /* LaunchScreen.storyboard */; };
+		D8B19E771E7189EB0079BE14 /* UIImage+CutImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E551E7189EB0079BE14 /* UIImage+CutImage.m */; };
+		D8B19E781E7189EB0079BE14 /* LYNearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E621E7189EB0079BE14 /* LYNearbyViewController.m */; };
+		D8B19E791E7189EB0079BE14 /* LYMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E651E7189EB0079BE14 /* LYMyViewController.m */; };
+		D8B19E7A1E7189EB0079BE14 /* LYActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E681E7189EB0079BE14 /* LYActivityViewController.m */; };
+		D8B19E7B1E7189EB0079BE14 /* LYHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E6C1E7189EB0079BE14 /* LYHomePageViewController.m */; };
+		D8B19E7C1E7189EB0079BE14 /* LYOutdoorInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E6F1E7189EB0079BE14 /* LYOutdoorInfoViewController.m */; };
+		D8B19E821E7193C40079BE14 /* UIColor+DefaultColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E811E7193C40079BE14 /* UIColor+DefaultColor.m */; };
+		D8B19E851E71962A0079BE14 /* UIFont+DefaultFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B19E841E71962A0079BE14 /* UIFont+DefaultFont.m */; };
+		D8B530711E719D7200A32989 /* LYBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B5306E1E719D7200A32989 /* LYBaseTabBarViewController.m */; };
+		D8B530721E719D7200A32989 /* LYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B530701E719D7200A32989 /* LYBaseViewController.m */; };
+		D8B530781E71A70C00A32989 /* empty_set.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D8B530761E71A70C00A32989 /* empty_set.jpeg */; };
+		D8B530791E71A70C00A32989 /* no_internet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D8B530771E71A70C00A32989 /* no_internet.jpeg */; };
+		D8D3B1921E7AC52F0094CE8C /* LYRouteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D3B1911E7AC52F0094CE8C /* LYRouteManager.m */; };
+		D8E3D4C71E7832B400837BC2 /* LYOutdoorInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E3D4C61E7832B400837BC2 /* LYOutdoorInfoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4257BD540CB6C1206363156F /* Pods-leyou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leyou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leyou/Pods-leyou.debug.xcconfig"; sourceTree = "<group>"; };
+		6EA0D00E68D68013A011AF42 /* libPods-leyou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leyou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D06CBF36EAEA633316CFED /* Pods-leyou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leyou.release.xcconfig"; path = "Pods/Target Support Files/Pods-leyou/Pods-leyou.release.xcconfig"; sourceTree = "<group>"; };
+		D81529F91E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYOutdoorInfoTableViewCell.h; sourceTree = "<group>"; };
+		D81529FA1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOutdoorInfoTableViewCell.m; sourceTree = "<group>"; };
+		D81529FB1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYOutdoorInfoTableViewCell.xib; sourceTree = "<group>"; };
+		D81529FE1E756850002E9B0A /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		D8152A001E757C8E002E9B0A /* LYOutdoorDetailInfoViewContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYOutdoorDetailInfoViewContrller.h; sourceTree = "<group>"; };
+		D8152A011E757C8E002E9B0A /* LYOutdoorDetailInfoViewContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOutdoorDetailInfoViewContrller.m; sourceTree = "<group>"; };
+		D8152A091E757EDC002E9B0A /* LYCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCommentTableViewCell.h; sourceTree = "<group>"; };
+		D8152A0A1E757EDC002E9B0A /* LYCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCommentTableViewCell.m; sourceTree = "<group>"; };
+		D8152A181E75919A002E9B0A /* LYCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCommentsViewController.h; sourceTree = "<group>"; };
+		D8152A191E75919A002E9B0A /* LYCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCommentsViewController.m; sourceTree = "<group>"; };
+		D8152A1B1E7591E0002E9B0A /* LYReplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYReplyViewController.h; sourceTree = "<group>"; };
+		D8152A1C1E7591E0002E9B0A /* LYReplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYReplyViewController.m; sourceTree = "<group>"; };
+		D8152A1F1E7596A0002E9B0A /* LYReplyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYReplyTableViewCell.h; sourceTree = "<group>"; };
+		D8152A201E7596A0002E9B0A /* LYReplyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYReplyTableViewCell.m; sourceTree = "<group>"; };
+		D85284211E7A386900BFBDC6 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		D85284221E7A386900BFBDC6 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		D85284251E7A61E100BFBDC6 /* LYComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYComment.h; sourceTree = "<group>"; };
+		D85284261E7A61E100BFBDC6 /* LYComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYComment.m; sourceTree = "<group>"; };
+		D852842E1E7A63B500BFBDC6 /* LYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYUser.h; sourceTree = "<group>"; };
+		D852842F1E7A63B500BFBDC6 /* LYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYUser.m; sourceTree = "<group>"; };
+		D85284311E7A673A00BFBDC6 /* LYModelSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYModelSetting.h; sourceTree = "<group>"; };
+		D85284321E7A673A00BFBDC6 /* LYModelSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYModelSetting.m; sourceTree = "<group>"; };
+		D85284341E7A83EF00BFBDC6 /* LYReply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYReply.h; sourceTree = "<group>"; };
+		D85284351E7A83EF00BFBDC6 /* LYReply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYReply.m; sourceTree = "<group>"; };
+		D85284391E7A896D00BFBDC6 /* LYBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseButton.h; sourceTree = "<group>"; };
+		D852843A1E7A896D00BFBDC6 /* LYBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseButton.m; sourceTree = "<group>"; };
+		D852843F1E7A9D1600BFBDC6 /* fav02l-sheet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fav02l-sheet@2x.png"; sourceTree = "<group>"; };
+		D8B19E321E7189AE0079BE14 /* leyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B19E361E7189AE0079BE14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8B19E381E7189AE0079BE14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8B19E391E7189AE0079BE14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8B19E3F1E7189AE0079BE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8B19E411E7189AE0079BE14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B19E441E7189AE0079BE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8B19E461E7189AE0079BE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B19E541E7189EB0079BE14 /* UIImage+CutImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CutImage.h"; sourceTree = "<group>"; };
+		D8B19E551E7189EB0079BE14 /* UIImage+CutImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CutImage.m"; sourceTree = "<group>"; };
+		D8B19E571E7189EB0079BE14 /* CommonMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMarco.h; sourceTree = "<group>"; };
+		D8B19E611E7189EB0079BE14 /* LYNearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNearbyViewController.h; sourceTree = "<group>"; };
+		D8B19E621E7189EB0079BE14 /* LYNearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNearbyViewController.m; sourceTree = "<group>"; };
+		D8B19E641E7189EB0079BE14 /* LYMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMyViewController.h; sourceTree = "<group>"; };
+		D8B19E651E7189EB0079BE14 /* LYMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMyViewController.m; sourceTree = "<group>"; };
+		D8B19E671E7189EB0079BE14 /* LYActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYActivityViewController.h; sourceTree = "<group>"; };
+		D8B19E681E7189EB0079BE14 /* LYActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYActivityViewController.m; sourceTree = "<group>"; };
+		D8B19E6B1E7189EB0079BE14 /* LYHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHomePageViewController.h; sourceTree = "<group>"; };
+		D8B19E6C1E7189EB0079BE14 /* LYHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHomePageViewController.m; sourceTree = "<group>"; };
+		D8B19E6E1E7189EB0079BE14 /* LYOutdoorInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYOutdoorInfoViewController.h; sourceTree = "<group>"; };
+		D8B19E6F1E7189EB0079BE14 /* LYOutdoorInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOutdoorInfoViewController.m; sourceTree = "<group>"; };
+		D8B19E801E7193C40079BE14 /* UIColor+DefaultColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DefaultColor.h"; sourceTree = "<group>"; };
+		D8B19E811E7193C40079BE14 /* UIColor+DefaultColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DefaultColor.m"; sourceTree = "<group>"; };
+		D8B19E831E71962A0079BE14 /* UIFont+DefaultFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DefaultFont.h"; sourceTree = "<group>"; };
+		D8B19E841E71962A0079BE14 /* UIFont+DefaultFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DefaultFont.m"; sourceTree = "<group>"; };
+		D8B5306D1E719D7200A32989 /* LYBaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseTabBarViewController.h; sourceTree = "<group>"; };
+		D8B5306E1E719D7200A32989 /* LYBaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseTabBarViewController.m; sourceTree = "<group>"; };
+		D8B5306F1E719D7200A32989 /* LYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBaseViewController.h; sourceTree = "<group>"; };
+		D8B530701E719D7200A32989 /* LYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBaseViewController.m; sourceTree = "<group>"; };
+		D8B530761E71A70C00A32989 /* empty_set.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empty_set.jpeg; sourceTree = "<group>"; };
+		D8B530771E71A70C00A32989 /* no_internet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_internet.jpeg; sourceTree = "<group>"; };
+		D8D3B1901E7AC52F0094CE8C /* LYRouteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRouteManager.h; sourceTree = "<group>"; };
+		D8D3B1911E7AC52F0094CE8C /* LYRouteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRouteManager.m; sourceTree = "<group>"; };
+		D8E3D4C51E7832B400837BC2 /* LYOutdoorInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYOutdoorInfoModel.h; sourceTree = "<group>"; };
+		D8E3D4C61E7832B400837BC2 /* LYOutdoorInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYOutdoorInfoModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8B19E2F1E7189AE0079BE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AAD237677D36DE948D8E8C9 /* libPods-leyou.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F767636DD1CBDA2C6686A2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4257BD540CB6C1206363156F /* Pods-leyou.debug.xcconfig */,
+				A4D06CBF36EAEA633316CFED /* Pods-leyou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		688CCC5EB3DE00465D283F8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EA0D00E68D68013A011AF42 /* libPods-leyou.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8152A031E757E86002E9B0A /* 评论 */ = {
+			isa = PBXGroup;
+			children = (
+				D8152A091E757EDC002E9B0A /* LYCommentTableViewCell.h */,
+				D8152A0A1E757EDC002E9B0A /* LYCommentTableViewCell.m */,
+			);
+			path = "评论";
+			sourceTree = "<group>";
+		};
+		D8152A121E758EA1002E9B0A /* 公共 */ = {
+			isa = PBXGroup;
+			children = (
+				D8152A161E75919A002E9B0A /* 用户回复 */,
+				D8152A171E75919A002E9B0A /* 用户评论 */,
+			);
+			path = "公共";
+			sourceTree = "<group>";
+		};
+		D8152A161E75919A002E9B0A /* 用户回复 */ = {
+			isa = PBXGroup;
+			children = (
+				D8152A1B1E7591E0002E9B0A /* LYReplyViewController.h */,
+				D8152A1C1E7591E0002E9B0A /* LYReplyViewController.m */,
+			);
+			path = "用户回复";
+			sourceTree = "<group>";
+		};
+		D8152A171E75919A002E9B0A /* 用户评论 */ = {
+			isa = PBXGroup;
+			children = (
+				D8152A181E75919A002E9B0A /* LYCommentsViewController.h */,
+				D8152A191E75919A002E9B0A /* LYCommentsViewController.m */,
+			);
+			path = "用户评论";
+			sourceTree = "<group>";
+		};
+		D8152A1E1E75967A002E9B0A /* 回复 */ = {
+			isa = PBXGroup;
+			children = (
+				D8152A1F1E7596A0002E9B0A /* LYReplyTableViewCell.h */,
+				D8152A201E7596A0002E9B0A /* LYReplyTableViewCell.m */,
+			);
+			path = "回复";
+			sourceTree = "<group>";
+		};
+		D85284241E7A554E00BFBDC6 /* 公共 */ = {
+			isa = PBXGroup;
+			children = (
+				D85284251E7A61E100BFBDC6 /* LYComment.h */,
+				D85284261E7A61E100BFBDC6 /* LYComment.m */,
+				D852842E1E7A63B500BFBDC6 /* LYUser.h */,
+				D852842F1E7A63B500BFBDC6 /* LYUser.m */,
+				D85284341E7A83EF00BFBDC6 /* LYReply.h */,
+				D85284351E7A83EF00BFBDC6 /* LYReply.m */,
+			);
+			path = "公共";
+			sourceTree = "<group>";
+		};
+		D8B19E291E7189AE0079BE14 = {
+			isa = PBXGroup;
+			children = (
+				D8B19E341E7189AE0079BE14 /* leyou */,
+				D8B19E331E7189AE0079BE14 /* Products */,
+				4F767636DD1CBDA2C6686A2E /* Pods */,
+				688CCC5EB3DE00465D283F8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B19E331E7189AE0079BE14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E321E7189AE0079BE14 /* leyou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8B19E341E7189AE0079BE14 /* leyou */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E7D1E7189F00079BE14 /* Resources */,
+				D8B19E4C1E7189EB0079BE14 /* Classes */,
+				D8B19E411E7189AE0079BE14 /* Assets.xcassets */,
+				D8B19E351E7189AE0079BE14 /* Supporting Files */,
+			);
+			path = leyou;
+			sourceTree = "<group>";
+		};
+		D8B19E351E7189AE0079BE14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E381E7189AE0079BE14 /* AppDelegate.h */,
+				D8B19E391E7189AE0079BE14 /* AppDelegate.m */,
+				D8B19E3E1E7189AE0079BE14 /* Main.storyboard */,
+				D8B19E431E7189AE0079BE14 /* LaunchScreen.storyboard */,
+				D8B19E461E7189AE0079BE14 /* Info.plist */,
+				D8B19E361E7189AE0079BE14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8B19E4C1E7189EB0079BE14 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E4D1E7189EB0079BE14 /* Common */,
+				D8B19E5A1E7189EB0079BE14 /* Models */,
+				D8B19E701E7189EB0079BE14 /* Views */,
+				D8B19E5F1E7189EB0079BE14 /* ViewContrllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D8B19E4D1E7189EB0079BE14 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E4E1E7189EB0079BE14 /* Base */,
+				D8B19E531E7189EB0079BE14 /* Extension */,
+				D8B19E561E7189EB0079BE14 /* Macro */,
+				D8B19E581E7189EB0079BE14 /* Manager */,
+				D8B19E591E7189EB0079BE14 /* Singleton */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D8B19E4E1E7189EB0079BE14 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5306A1E719D7200A32989 /* Models */,
+				D8B5306B1E719D7200A32989 /* Views */,
+				D8B5306C1E719D7200A32989 /* Controllers */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D8B19E531E7189EB0079BE14 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E541E7189EB0079BE14 /* UIImage+CutImage.h */,
+				D8B19E551E7189EB0079BE14 /* UIImage+CutImage.m */,
+				D8B19E801E7193C40079BE14 /* UIColor+DefaultColor.h */,
+				D8B19E811E7193C40079BE14 /* UIColor+DefaultColor.m */,
+				D8B19E831E71962A0079BE14 /* UIFont+DefaultFont.h */,
+				D8B19E841E71962A0079BE14 /* UIFont+DefaultFont.m */,
+				D85284211E7A386900BFBDC6 /* NSString+Extension.h */,
+				D85284221E7A386900BFBDC6 /* NSString+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D8B19E561E7189EB0079BE14 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E571E7189EB0079BE14 /* CommonMarco.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		D8B19E581E7189EB0079BE14 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D8D3B1901E7AC52F0094CE8C /* LYRouteManager.h */,
+				D8D3B1911E7AC52F0094CE8C /* LYRouteManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D8B19E591E7189EB0079BE14 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				D85284311E7A673A00BFBDC6 /* LYModelSetting.h */,
+				D85284321E7A673A00BFBDC6 /* LYModelSetting.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		D8B19E5A1E7189EB0079BE14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D85284241E7A554E00BFBDC6 /* 公共 */,
+				D8B19E5B1E7189EB0079BE14 /* 周边 */,
+				D8B19E5C1E7189EB0079BE14 /* 我 */,
+				D8B19E5D1E7189EB0079BE14 /* 活动 */,
+				D8B19E5E1E7189EB0079BE14 /* 首页 */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8B19E5B1E7189EB0079BE14 /* 周边 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "周边";
+			sourceTree = "<group>";
+		};
+		D8B19E5C1E7189EB0079BE14 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		D8B19E5D1E7189EB0079BE14 /* 活动 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "活动";
+			sourceTree = "<group>";
+		};
+		D8B19E5E1E7189EB0079BE14 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				D81529FE1E756850002E9B0A /* Property List.plist */,
+				D8E3D4C51E7832B400837BC2 /* LYOutdoorInfoModel.h */,
+				D8E3D4C61E7832B400837BC2 /* LYOutdoorInfoModel.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D8B19E5F1E7189EB0079BE14 /* ViewContrllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8152A121E758EA1002E9B0A /* 公共 */,
+				D8B19E601E7189EB0079BE14 /* 周边 */,
+				D8B19E631E7189EB0079BE14 /* 我 */,
+				D8B19E661E7189EB0079BE14 /* 活动 */,
+				D8B19E691E7189EB0079BE14 /* 登录注册 */,
+				D8B19E6A1E7189EB0079BE14 /* 首页 */,
+			);
+			path = ViewContrllers;
+			sourceTree = "<group>";
+		};
+		D8B19E601E7189EB0079BE14 /* 周边 */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E611E7189EB0079BE14 /* LYNearbyViewController.h */,
+				D8B19E621E7189EB0079BE14 /* LYNearbyViewController.m */,
+			);
+			path = "周边";
+			sourceTree = "<group>";
+		};
+		D8B19E631E7189EB0079BE14 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E641E7189EB0079BE14 /* LYMyViewController.h */,
+				D8B19E651E7189EB0079BE14 /* LYMyViewController.m */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		D8B19E661E7189EB0079BE14 /* 活动 */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E671E7189EB0079BE14 /* LYActivityViewController.h */,
+				D8B19E681E7189EB0079BE14 /* LYActivityViewController.m */,
+			);
+			path = "活动";
+			sourceTree = "<group>";
+		};
+		D8B19E691E7189EB0079BE14 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		D8B19E6A1E7189EB0079BE14 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E6B1E7189EB0079BE14 /* LYHomePageViewController.h */,
+				D8B19E6C1E7189EB0079BE14 /* LYHomePageViewController.m */,
+				D8B19E6D1E7189EB0079BE14 /* 户外资讯 */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D8B19E6D1E7189EB0079BE14 /* 户外资讯 */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E6E1E7189EB0079BE14 /* LYOutdoorInfoViewController.h */,
+				D8B19E6F1E7189EB0079BE14 /* LYOutdoorInfoViewController.m */,
+				D8152A001E757C8E002E9B0A /* LYOutdoorDetailInfoViewContrller.h */,
+				D8152A011E757C8E002E9B0A /* LYOutdoorDetailInfoViewContrller.m */,
+			);
+			path = "户外资讯";
+			sourceTree = "<group>";
+		};
+		D8B19E701E7189EB0079BE14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E711E7189EB0079BE14 /* 周边 */,
+				D8B19E721E7189EB0079BE14 /* 我 */,
+				D8B19E731E7189EB0079BE14 /* 活动 */,
+				D8B19E741E7189EB0079BE14 /* 首页 */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8B19E711E7189EB0079BE14 /* 周边 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "周边";
+			sourceTree = "<group>";
+		};
+		D8B19E721E7189EB0079BE14 /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		D8B19E731E7189EB0079BE14 /* 活动 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "活动";
+			sourceTree = "<group>";
+		};
+		D8B19E741E7189EB0079BE14 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				D8152A1E1E75967A002E9B0A /* 回复 */,
+				D8152A031E757E86002E9B0A /* 评论 */,
+				D8ECE9301E75097000389421 /* 户外资讯 */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D8B19E7D1E7189F00079BE14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8B19E7E1E7189F00079BE14 /* Image */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8B19E7E1E7189F00079BE14 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				D852843F1E7A9D1600BFBDC6 /* fav02l-sheet@2x.png */,
+				D8B530761E71A70C00A32989 /* empty_set.jpeg */,
+				D8B530771E71A70C00A32989 /* no_internet.jpeg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		D8B5306A1E719D7200A32989 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8B5306B1E719D7200A32989 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D85284391E7A896D00BFBDC6 /* LYBaseButton.h */,
+				D852843A1E7A896D00BFBDC6 /* LYBaseButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8B5306C1E719D7200A32989 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5306D1E719D7200A32989 /* LYBaseTabBarViewController.h */,
+				D8B5306E1E719D7200A32989 /* LYBaseTabBarViewController.m */,
+				D8B5306F1E719D7200A32989 /* LYBaseViewController.h */,
+				D8B530701E719D7200A32989 /* LYBaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8ECE9301E75097000389421 /* 户外资讯 */ = {
+			isa = PBXGroup;
+			children = (
+				D81529F91E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.h */,
+				D81529FA1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.m */,
+				D81529FB1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.xib */,
+			);
+			path = "户外资讯";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8B19E311E7189AE0079BE14 /* leyou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B19E491E7189AE0079BE14 /* Build configuration list for PBXNativeTarget "leyou" */;
+			buildPhases = (
+				9C6410CE7FA6F4B3300428D7 /* [CP] Check Pods Manifest.lock */,
+				D8B19E2E1E7189AE0079BE14 /* Sources */,
+				D8B19E2F1E7189AE0079BE14 /* Frameworks */,
+				D8B19E301E7189AE0079BE14 /* Resources */,
+				F8B1F9DB71EDEB05CC592693 /* [CP] Embed Pods Frameworks */,
+				B634E2E8FBC6BF8865F69C14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leyou;
+			productName = leyou;
+			productReference = D8B19E321E7189AE0079BE14 /* leyou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8B19E2A1E7189AE0079BE14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lu.liu;
+				TargetAttributes = {
+					D8B19E311E7189AE0079BE14 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 37GW3Y8ECA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8B19E2D1E7189AE0079BE14 /* Build configuration list for PBXProject "leyou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8B19E291E7189AE0079BE14;
+			productRefGroup = D8B19E331E7189AE0079BE14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B19E311E7189AE0079BE14 /* leyou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8B19E301E7189AE0079BE14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B530791E71A70C00A32989 /* no_internet.jpeg in Resources */,
+				D85284401E7A9D1600BFBDC6 /* fav02l-sheet@2x.png in Resources */,
+				D81529FF1E756850002E9B0A /* Property List.plist in Resources */,
+				D8B530781E71A70C00A32989 /* empty_set.jpeg in Resources */,
+				D8B19E451E7189AE0079BE14 /* LaunchScreen.storyboard in Resources */,
+				D81529FD1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.xib in Resources */,
+				D8B19E421E7189AE0079BE14 /* Assets.xcassets in Resources */,
+				D8B19E401E7189AE0079BE14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C6410CE7FA6F4B3300428D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B634E2E8FBC6BF8865F69C14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leyou/Pods-leyou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B1F9DB71EDEB05CC592693 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leyou/Pods-leyou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8B19E2E1E7189AE0079BE14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B530711E719D7200A32989 /* LYBaseTabBarViewController.m in Sources */,
+				D8152A211E7596A0002E9B0A /* LYReplyTableViewCell.m in Sources */,
+				D852843B1E7A896D00BFBDC6 /* LYBaseButton.m in Sources */,
+				D8B19E771E7189EB0079BE14 /* UIImage+CutImage.m in Sources */,
+				D8B19E791E7189EB0079BE14 /* LYMyViewController.m in Sources */,
+				D8152A0B1E757EDC002E9B0A /* LYCommentTableViewCell.m in Sources */,
+				D8B19E3A1E7189AE0079BE14 /* AppDelegate.m in Sources */,
+				D8B19E851E71962A0079BE14 /* UIFont+DefaultFont.m in Sources */,
+				D8B19E7B1E7189EB0079BE14 /* LYHomePageViewController.m in Sources */,
+				D8B19E371E7189AE0079BE14 /* main.m in Sources */,
+				D85284301E7A63B500BFBDC6 /* LYUser.m in Sources */,
+				D8152A021E757C8E002E9B0A /* LYOutdoorDetailInfoViewContrller.m in Sources */,
+				D85284271E7A61E100BFBDC6 /* LYComment.m in Sources */,
+				D8B19E821E7193C40079BE14 /* UIColor+DefaultColor.m in Sources */,
+				D8D3B1921E7AC52F0094CE8C /* LYRouteManager.m in Sources */,
+				D8B530721E719D7200A32989 /* LYBaseViewController.m in Sources */,
+				D8152A1D1E7591E0002E9B0A /* LYReplyViewController.m in Sources */,
+				D8B19E781E7189EB0079BE14 /* LYNearbyViewController.m in Sources */,
+				D8E3D4C71E7832B400837BC2 /* LYOutdoorInfoModel.m in Sources */,
+				D85284231E7A386900BFBDC6 /* NSString+Extension.m in Sources */,
+				D85284331E7A673A00BFBDC6 /* LYModelSetting.m in Sources */,
+				D8B19E7C1E7189EB0079BE14 /* LYOutdoorInfoViewController.m in Sources */,
+				D8B19E7A1E7189EB0079BE14 /* LYActivityViewController.m in Sources */,
+				D85284361E7A83EF00BFBDC6 /* LYReply.m in Sources */,
+				D81529FC1E755ECA002E9B0A /* LYOutdoorInfoTableViewCell.m in Sources */,
+				D8152A1A1E75919A002E9B0A /* LYCommentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8B19E3E1E7189AE0079BE14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B19E3F1E7189AE0079BE14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8B19E431E7189AE0079BE14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B19E441E7189AE0079BE14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8B19E471E7189AE0079BE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8B19E481E7189AE0079BE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8B19E4A1E7189AE0079BE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4257BD540CB6C1206363156F /* Pods-leyou.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37GW3Y8ECA;
+				INFOPLIST_FILE = leyou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anonym.leyou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8B19E4B1E7189AE0079BE14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D06CBF36EAEA633316CFED /* Pods-leyou.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37GW3Y8ECA;
+				INFOPLIST_FILE = leyou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anonym.leyou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8B19E2D1E7189AE0079BE14 /* Build configuration list for PBXProject "leyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B19E471E7189AE0079BE14 /* Debug */,
+				D8B19E481E7189AE0079BE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B19E491E7189AE0079BE14 /* Build configuration list for PBXNativeTarget "leyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B19E4A1E7189AE0079BE14 /* Debug */,
+				D8B19E4B1E7189AE0079BE14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8B19E2A1E7189AE0079BE14 /* Project object */;
+}

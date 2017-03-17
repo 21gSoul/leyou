@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>onFoot</key>
+	<array/>
+	<key>fishing</key>
+	<array/>
+	<key>hiking</key>
+	<array/>
+	<key>campOut</key>
+	<array/>
+	<key>cycle</key>
+	<array/>
+	<key>cook</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string></string>
+			<key>intro</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>views</key>
+			<string></string>
+			<key>content</key>
+			<string></string>
+			<key>New item - 6</key>
+			<string></string>
+			<key>New item - 7</key>
+			<string></string>
+			<key>New item - 8</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>
